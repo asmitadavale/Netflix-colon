@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #fff
+}
+
+.main {
+    width: 100%;
+    height: 96vh;
+    background-image: url(assets/image/NetfixInformation/bachground.jpg);
+    background-size: max(2200px, 100vw);
+    background-position: center center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100%;
+    height: 96vh;
+    position: absolute;
+    top: 0;
+    opacity: 0.48;
+    background-color: black;
+}
+
+nav {
+    max-width: 75vw;
+    height: 62px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.logo {
+    width: 190px;
+    height: 80px;
+    position: relative;
+    z-index: 10;
+    color: red;
+}
+
+.btn {
+    width: 110px;
+    height: 32px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1.5px solid rgb(144, 142, 142);
+    position: relative;
+    z-index: 10;
+}
+
+.input {
+    width: 72px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+    border-color: rgba(0, 0, 0, 0);
+    margin-inline-start: 15px;
+}
+
+.header-contain {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-contain h1 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    display: block;
+}
+
+.header-contain h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header-contain p {
+    font-size: 1.3rem;
+    ;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.email-signup {
+    flex-wrap: wrap;
+    display: block;
+}
+
+.email-signup input {
+    display: flexbox;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-left: 1%;
+    background: none;
+    background-color: light-dark(rgba(34, 34, 35, 0.493), rgba(39, 51, 74, 0.4));
+    height: 55px;
+    width: 25%;
+    margin-top: 17px;
+    padding: 16px 24px;
+}
+
+.email-signup button {
+    display: flexbox;
+    flex-direction: column;
+    background: rgb(229, 9, 20);
+    height: 55px;
+    width: 13%;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    margin-inline-start: 2px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.separation {
+    width: 100%;
+    height: 7px;
+    background-color: rgb(36, 34, 34);
+}
+
+/* first */
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1300px) {
+    .first {
+        flex-wrap: wrap;
+    }
+}
+
+.secImg {
+    width: 555px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.secImg Img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    width: 86.5%;
+    padding-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0 0;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.separation1 {
+    width: 100%;
+    height: 7px;
+    background-color: rgb(36, 34, 34);
+    margin-top: 60px;
+}
+
+/* second */
+.Image button {
+    width: 23%;
+    height: 13%;
+    margin-top: 23%;
+    margin-left: 1px;
+    margin-inline-start: 9.5%;
+    border-radius: 15px;
+    position: relative;
+    position: absolute;
+    transform: translate(-50%, -5);
+    padding: 10px 20px;
+    color: white;
+    background: rgb(0, 0, 0);
+}
+
+/* third */
+.third {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionImg {
+    width: 555px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.sectionImg Img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.sectionImg video {
+    width: 60%;
+    padding-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    top: 51px;
+    margin-left: 20%;
+}
+
+/*  Questions */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.faq {
+    background-color: black;
+    color: #fff;
+}
+
+.faqbox:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 49, 49);
+    padding: 24px;
+    max-width: 75vw;
+    margin: 34px auto;
+    cursor: pointer;
+    margin-block: 8px;
+}
+
+/* footer */
+footer {
+    flex-wrap: wrap;
+    height: 70%;
+    display: grid;
+    max-width: 90vw;
+}
+
+.panel {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 15%;
+    margin-top: 60px;
+}
+
+.panel a {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 5px;
+}
+
+.footer-panel {
+    color: rgba(255, 255, 255, 0.7);
+    height: 150px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -1rem;
+    margin-left: -0.75rem;
+    width: cal(100% + 0.75rem);
+    padding-inline-start: 40px;
+}
+
+@media screen and (max-width:1300px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+ul a {
+
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 1rem;
+}
+
+btn {
+    width: 110px;
+    height: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1.5px solid rgb(144, 142, 142);
+    margin-top: 20px;
+    margin-left: 15%;
+    padding-left: 25px;
+}
+
+.panel1 {
+    margin-top: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 15%;
+    margin-bottom: 60px;
+}
